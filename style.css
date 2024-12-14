@@ -30,10 +30,10 @@
   margin: 0 auto 0;
 }
 .todo-list__input_click {
-  width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .todo-list__item {
   display: flex;
 }
@@ -73,9 +73,6 @@
   text-transform: uppercase;
 }
 .todo-list__input {
-  margin: 0;
-  font-size: 18px;
-  line-height: 18px;
   height: 21px;
   padding: 0 9px;
   border: 1px solid #dDd;
@@ -129,7 +126,6 @@
 }
 .todo-list__btn.todo-list__btn_delete 
 .todo-list__img-delete {
-  height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
